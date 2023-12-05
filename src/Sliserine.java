@@ -1,9 +1,9 @@
 public class Sliserine extends Hogwarts {
-    protected int cunning;
-    protected int determination;
-    protected int ambition;
-    protected int resourcefulness;
-    protected int thirstForPower;
+    private int cunning;
+    private int determination;
+    private int ambition;
+    private int resourcefulness;
+    private int thirstForPower;
 
     public Sliserine(String name, int power, int transegress, int cunning, int determination, int ambition,
                      int resourcefulness, int thirstForPower) {
@@ -63,9 +63,9 @@ public class Sliserine extends Hogwarts {
                 ", ambition=" + ambition +
                 ", resourcefulness=" + resourcefulness +
                 ", thirstForPower=" + thirstForPower +
-                ", power=" + power +
-                ", transegress=" + transegress +
-                ", name='" + name + '\'' +
+                ", power=" + getPower() +
+                ", transegress=" + getTransegress() +
+                ", name='" + getName() + '\'' +
                 '}';
     }
 

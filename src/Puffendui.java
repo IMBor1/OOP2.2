@@ -40,9 +40,9 @@ public class Puffendui extends Hogwarts {
                 "diligence=" + diligence +
                 ", loyalty=" + loyalty +
                 ", honesty=" + honesty +
-                ", power=" + power +
-                ", transegress=" + transegress +
-                ", name='" + name + '\'' +
+                ", power=" + getPower() +
+                ", transegress=" + getTransegress() +
+                ", name='" + getName() + '\'' +
                 '}';
     }
 

@@ -28,6 +28,7 @@ public class Main {
                 89, 74, 46, 77);
         Cogtevran marcusBelby = new Cogtevran("Marcus Belby", 90, 53,
                 66, 71, 65, 78);
+        harryPotter.printPerson();
 
         Griffindor.compariserGriffindor(harryPotter, hermioneGranger);
     }

@@ -1,7 +1,7 @@
 public class Griffindor extends Hogwarts {
-    protected int nobility;
-    protected int honor;
-    protected int bravery;
+    private int nobility;
+    private int honor;
+    private int bravery;
 
     public Griffindor(String name, int power, int transegress, int nobility, int honor, int bravery) {
         super(name, power, transegress);
@@ -40,9 +40,9 @@ public class Griffindor extends Hogwarts {
                 "nobility=" + nobility +
                 ", honor=" + honor +
                 ", bravery=" + bravery +
-                ", power=" + power +
-                ", transegress=" + transegress +
-                ", name='" + name + '\'' +
+                ", power=" + getPower() +
+                ", transegress=" + getTransegress() +
+                ", name='" + getName() + '\'' +
                 '}';
     }
 

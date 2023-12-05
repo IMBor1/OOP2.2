@@ -51,9 +51,9 @@ public class Cogtevran extends Hogwarts {
                 ", wisdom=" + wisdom +
                 ", wit=" + wit +
                 ", creativity=" + creativity +
-                ", power=" + power +
-                ", transegress=" + transegress +
-                ", name='" + name + '\'' +
+                ", power=" + getPower() +
+                ", transegress=" + getTransegress() +
+                ", name='" + getName() + '\'' +
                 '}';
     }
 
